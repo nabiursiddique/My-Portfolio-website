@@ -8,7 +8,11 @@ export default {
     themes: ["night"],
   },
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        body: 'Inter',
+      }
+    },
   },
   plugins: [require("daisyui")],
 }

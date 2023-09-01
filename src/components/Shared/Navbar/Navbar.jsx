@@ -3,7 +3,6 @@ import {
     Navbar,
     MobileNav,
     Typography,
-    Button,
     IconButton,
 } from "@material-tailwind/react";
 
@@ -70,7 +69,7 @@ export function NavbarDefault() {
                     href="#"
                     className="mr-4 cursor-pointer py-1.5 font-bold text-xl"
                 >
-                    Nabiur Siddique
+                    Nabiur Siddique<span className="text-green-400">.</span>
                 </Typography>
                 <div className="hidden lg:block">{navList}</div>
                 <IconButton
