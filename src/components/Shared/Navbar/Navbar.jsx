@@ -5,6 +5,7 @@ import {
     Typography,
     IconButton,
 } from "@material-tailwind/react";
+import { motion } from "framer-motion";
 
 export function NavbarDefault() {
     const [openNav, setOpenNav] = React.useState(false);
@@ -18,46 +19,71 @@ export function NavbarDefault() {
 
     const navList = (
         <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-            <Typography
+            <motion.Typography
+                initial={{ y: -8, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.2 }}
                 as="li"
                 variant="small"
                 color="blue-gray"
                 className="font-normal hover:bg-gray-500 rounded btn btn-sm btn-ghost"
             >
-                <a href="#" className="flex items-center">
-                    Pages
+                <a href="#Home" className="flex items-center ">
+                    Home
                 </a>
-            </Typography>
-            <Typography
+            </motion.Typography>
+            <motion.Typography
+                initial={{ y: -8, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.2, delay: 0.1 }}
                 as="li"
                 variant="small"
                 color="blue-gray"
                 className="font-normal hover:bg-gray-500 rounded btn btn-sm btn-ghost"
             >
-                <a href="#" className="flex items-center">
-                    Account
+                <a href="#about" className="flex items-center">
+                    About
                 </a>
-            </Typography>
-            <Typography
+            </motion.Typography>
+            <motion.Typography
+                initial={{ y: -8, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.2, delay: 0.2 }}
                 as="li"
                 variant="small"
                 color="blue-gray"
                 className="font-normal hover:bg-gray-500 rounded btn btn-sm btn-ghost"
             >
-                <a href="#" className="flex items-center">
-                    Blocks
+                <a href="#skills" className="flex items-center">
+                    Skills
                 </a>
-            </Typography>
-            <Typography
+            </motion.Typography>
+            <motion.Typography
+                initial={{ y: -8, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.2, delay: 0.3 }}
                 as="li"
                 variant="small"
                 color="blue-gray"
                 className="font-normal hover:bg-gray-500 rounded btn btn-sm btn-ghost"
             >
-                <a href="#" className="flex items-center">
-                    Docs
+                <a href="#portfolio" className="flex items-center">
+                    Portfolio
                 </a>
-            </Typography>
+            </motion.Typography>
+            <motion.Typography
+                initial={{ y: -8, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.2, delay: 0.4 }}
+                as="li"
+                variant="small"
+                color="blue-gray"
+                className="font-normal hover:bg-gray-500 rounded btn btn-sm btn-ghost"
+            >
+                <a href="#contact" className="flex items-center">
+                    Contact
+                </a>
+            </motion.Typography>
         </ul>
     );
 
