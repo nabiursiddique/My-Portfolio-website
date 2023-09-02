@@ -26,7 +26,7 @@ export function NavbarDefault() {
                 as="li"
                 variant="small"
                 color="blue-gray"
-                className="font-normal hover:bg-gray-500 rounded btn btn-sm btn-ghost"
+                className="font-normal rounded btn btn-sm btn-ghost hover:btn-success"
             >
                 <a href="#Home" className="flex items-center ">
                     Home
@@ -39,7 +39,7 @@ export function NavbarDefault() {
                 as="li"
                 variant="small"
                 color="blue-gray"
-                className="font-normal hover:bg-gray-500 rounded btn btn-sm btn-ghost"
+                className="font-normal rounded btn btn-sm btn-ghost hover:btn-success"
             >
                 <a href="#about" className="flex items-center">
                     About
@@ -52,7 +52,7 @@ export function NavbarDefault() {
                 as="li"
                 variant="small"
                 color="blue-gray"
-                className="font-normal hover:bg-gray-500 rounded btn btn-sm btn-ghost"
+                className="font-normal rounded btn btn-sm btn-ghost hover:btn-success"
             >
                 <a href="#skills" className="flex items-center">
                     Skills
@@ -65,7 +65,7 @@ export function NavbarDefault() {
                 as="li"
                 variant="small"
                 color="blue-gray"
-                className="font-normal hover:bg-gray-500 rounded btn btn-sm btn-ghost"
+                className="font-normal rounded btn btn-sm btn-ghost hover:btn-success"
             >
                 <a href="#portfolio" className="flex items-center">
                     Portfolio
@@ -78,10 +78,23 @@ export function NavbarDefault() {
                 as="li"
                 variant="small"
                 color="blue-gray"
-                className="font-normal hover:bg-gray-500 rounded btn btn-sm btn-ghost"
+                className="font-normal rounded btn btn-sm btn-ghost hover:btn-success"
             >
                 <a href="#contact" className="flex items-center">
                     Contact
+                </a>
+            </motion.Typography>
+            <motion.Typography
+                initial={{ y: -8, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.2, delay: 0.4 }}
+                as="li"
+                variant="small"
+                color="blue-gray"
+                className="font-normal rounded btn btn-sm btn-outline btn-success"
+            >
+                <a href="#contact" className="flex items-center">
+                    Resume
                 </a>
             </motion.Typography>
         </ul>

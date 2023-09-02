@@ -9,16 +9,16 @@ const Hero = () => {
     });
     return (
         <div className="hero lg:my-28 my-5">
-            <div className="flex items-center gap-10 flex-col lg:flex-row-reverse">
-                <div className='lg:w-full'>
-                    <img src="https://images.pexels.com/photos/4064969/pexels-photo-4064969.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" className="max-w-md rounded-lg shadow-2xl" />
+            <div>
+                <div>
 
                 </div>
-                <div className='lg:w-full mx-5'>
-                    <h1 className="text-5xl font-bold">Nabiur Siddique</h1>
-                    <h3 className="py-3 text-2xl">Iam a <span className='text-green-400 font-medium'>{text}</span><span className='text-green-400'><Cursor /></span></h3>
-                    <p className='pb-3'>I'm a Full-Stack MERN Developer, and I'm very passionate and dedicated to my work.</p>
-                    <button className="btn btn-md bg-slate-600 hover:bg-slate-700 text-white">Say Hello <BsFillSendFill className='text-green-500' /></button>
+                <div className='lg:w-3/5 md:w-3/5 mx-5 lg:mx-auto md:mx-auto'>
+                    <p className='text-success pb-4 font-medium'>Hi, My name is</p>
+                    <h1 className="text-5xl font-bold text-slate-200">Nabiur Siddique</h1>
+                    <h3 className="py-3 text-2xl"><span className='text-slate-200'>Iam a</span> <span className='text-success font-medium'>{text}</span><span className='text-success'><Cursor /></span></h3>
+                    <p className='pb-3'>I'm a Full-Stack MERN Developer, and I'm very passionate and dedicated to my work.I build websites that can impact the socity and the world</p>
+                    <button className="btn btn-md btn-outline btn-success mt-3">Say Hello <BsFillSendFill /></button>
                 </div>
             </div>
 
