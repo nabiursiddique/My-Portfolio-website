@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from "framer-motion";
 
 const Skills = () => {
     const frontend = ['ReactJS', 'NextJS', 'Javascript', 'Tailwind CSS', 'Bootstrap'];
@@ -8,15 +9,30 @@ const Skills = () => {
         <section id='skills' className='lg:mx-5 py-10'>
             <div className='hero mb-5'>
                 <div className='hero-content justify-start'>
-                    <h2 className='text-4xl text-success font-semibold '>Skills</h2>
+                    <motion.h2
+                        initial={{ y: 10, opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 1, delay: 0.5 }}
+                        viewport={{ once: true }}
+                        className='text-4xl text-success font-semibold '>Skills</motion.h2>
                 </div>
-                <span className='w-60 h-[.5px] bg-slate-100 mt-11'></span>
+                <motion.span
+                    initial={{ y: 10, opacity: 0 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 1, delay: 0.3 }}
+                    viewport={{ once: true }}
+                    className='w-60 h-[.5px] bg-slate-100 mt-11'></motion.span>
             </div>
 
             <div>
                 <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 px-3'>
 
-                    <div className="card bg-neutral text-neutral-content">
+                    <motion.div
+                        initial={{ y: 60, opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 1, delay: 0.3 }}
+                        viewport={{ once: true }}
+                        className="card bg-neutral text-neutral-content">
                         <div className="card-body items-center text-center">
                             <h2 className="card-title text-success">Frontend</h2>
                             <span className='w-48 h-[.5px] bg-success'></span>
@@ -25,9 +41,14 @@ const Skills = () => {
                             }
 
                         </div>
-                    </div>
+                    </motion.div>
 
-                    <div className="card bg-neutral text-neutral-content">
+                    <motion.div
+                        initial={{ y: 50, opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 1, delay: 0.4 }}
+                        viewport={{ once: true }}
+                        className="card bg-neutral text-neutral-content">
                         <div className="card-body items-center text-center">
                             <h2 className="card-title text-success">Backend</h2>
                             <span className='w-48 h-[.5px] bg-success'></span>
@@ -35,9 +56,14 @@ const Skills = () => {
                                 backend.map(item => <p className='font-mono py-3'>{item}</p>)
                             }
                         </div>
-                    </div>
+                    </motion.div>
 
-                    <div className="card bg-neutral text-neutral-content">
+                    <motion.div
+                        initial={{ y: 40, opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 1, delay: 0.5 }}
+                        viewport={{ once: true }}
+                        className="card bg-neutral text-neutral-content">
                         <div className="card-body items-center text-center">
                             <h2 className="card-title text-success">Tools</h2>
                             <span className='w-48 h-[.5px] bg-success'></span>
@@ -45,10 +71,10 @@ const Skills = () => {
                                 tools.map(item => <p className='font-mono py-3'>{item}</p>)
                             }
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
             </div>
-        </section>
+        </section >
     );
 };
 
