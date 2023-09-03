@@ -15,7 +15,7 @@ const About = () => {
                     <img src={NabiurSiddique} className="max-w-sm rounded-lg shadow-2xl" />
                     <div className='lg:ml-5 md:ml-5'>
                         <h2 className='text-3xl text-success font-semibold mb-6 italic'>Hello,</h2>
-                        <p>Iam Nabiur Siddique. Iam currently pursuing my Btech in computer science and technology at RIMT University, India. And Iam in my last semester.
+                        <p>Iam Nabiur Siddique. Iam currently pursuing my Btech in computer science and Engineering at RIMT University, India. And Iam in my last semester.
                             <br />
                             <br />
                             I have become so involved with programming that coding has become an addiction. That's why when I finish a project at the right time, then I feel full of peace, joy, and a smile too.

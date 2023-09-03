@@ -1,4 +1,5 @@
 import About from "./components/About/About"
+import Contact from "./components/Contact/Contact"
 import Home from "./components/Home/Home/Home"
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop"
 import { NavbarDefault } from "./components/Shared/Navbar/Navbar"
@@ -12,6 +13,7 @@ const App = () => {
         <Home />
         <About />
         <Skills />
+        <Contact />
       </div>
       <ScrollToTop />
     </>

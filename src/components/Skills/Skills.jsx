@@ -5,7 +5,7 @@ const Skills = () => {
     const backend = ['ExpressJS', 'MongoDB', 'NodeJS', 'JWT', 'Rest API']
     const tools = ['Firebase', 'Git & Github', 'VS Code', 'Figma', 'Adobe Photoshop']
     return (
-        <section id='skills' className='lg:mx-5 my-16'>
+        <section id='skills' className='lg:mx-5 py-10'>
             <div className='hero mb-5'>
                 <div className='hero-content justify-start'>
                     <h2 className='text-4xl text-success font-semibold '>Skills</h2>
