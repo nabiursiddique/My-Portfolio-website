@@ -18,7 +18,7 @@ export function NavbarDefault() {
 
     const navList = (
         <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-            <motion.p
+            <motion.a
                 initial={{ y: -8, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.2 }}
@@ -26,12 +26,11 @@ export function NavbarDefault() {
                 variant="small"
                 color="blue-gray"
                 className="font-normal rounded btn btn-sm btn-ghost hover:btn-success"
+                href="#Home"
             >
-                <a href="#Home" className="flex items-center ">
-                    Home
-                </a>
-            </motion.p>
-            <motion.p
+                Home
+            </motion.a>
+            <motion.a
                 initial={{ y: -8, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.2, delay: 0.1 }}
@@ -39,12 +38,11 @@ export function NavbarDefault() {
                 variant="small"
                 color="blue-gray"
                 className="font-normal rounded btn btn-sm btn-ghost hover:btn-success"
+                href="#about"
             >
-                <a href="#about" className="flex items-center">
-                    About
-                </a>
-            </motion.p>
-            <motion.p
+                About
+            </motion.a>
+            <motion.a
                 initial={{ y: -8, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.2, delay: 0.2 }}
@@ -52,12 +50,11 @@ export function NavbarDefault() {
                 variant="small"
                 color="blue-gray"
                 className="font-normal rounded btn btn-sm btn-ghost hover:btn-success"
+                href="#skills"
             >
-                <a href="#skills" className="flex items-center">
-                    Skills
-                </a>
-            </motion.p>
-            <motion.p
+                skills
+            </motion.a>
+            <motion.a
                 initial={{ y: -8, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.2, delay: 0.3 }}
@@ -65,12 +62,11 @@ export function NavbarDefault() {
                 variant="small"
                 color="blue-gray"
                 className="font-normal rounded btn btn-sm btn-ghost hover:btn-success"
+                href="#portfolio"
             >
-                <a href="#portfolio" className="flex items-center">
-                    Portfolio
-                </a>
-            </motion.p>
-            <motion.p
+                Portfolio
+            </motion.a>
+            <motion.a
                 initial={{ y: -8, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.2, delay: 0.4 }}
@@ -78,11 +74,10 @@ export function NavbarDefault() {
                 variant="small"
                 color="blue-gray"
                 className="font-normal rounded btn btn-sm btn-ghost hover:btn-success"
+                href="#contact"
             >
-                <a href="#contact" className="flex items-center">
-                    Contact
-                </a>
-            </motion.p>
+                Contact
+            </motion.a>
             <motion.p
                 initial={{ y: -8, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
