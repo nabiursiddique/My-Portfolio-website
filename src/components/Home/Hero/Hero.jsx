@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
-import { BsFillSendFill } from "react-icons/bs";
+import { BsFillSendFill, BsBoxArrowUpRight } from "react-icons/bs";
 import Leftside from '../Leftside/Leftside';
 import Lottie from 'lottie-react'
 import programmingAnimation from '../../../assets/programmingAnimation.json'
@@ -53,12 +53,21 @@ const Hero = () => {
 
                         <LinksForSmDevice />
 
-                        <motion.button
-                            initial={{ y: 10, opacity: 0 }}
-                            animate={{ y: 0, opacity: 1 }}
-                            transition={{ duration: 0.5, delay: 1 }}
-                            className="btn btn-md btn-outline btn-success mt-3">Say Hello <BsFillSendFill />
-                        </motion.button>
+                        <div className='lg:mt-0 mt-2'>
+                            <motion.button
+                                initial={{ y: 10, opacity: 0 }}
+                                animate={{ y: 0, opacity: 1 }}
+                                transition={{ duration: 0.5, delay: 1 }}
+                                className="btn btn-sm btn-outline btn-success mt-3 mr-5">Say Hello <BsFillSendFill />
+                            </motion.button>
+                            <motion.button
+                                initial={{ y: 10, opacity: 0 }}
+                                animate={{ y: 0, opacity: 1 }}
+                                transition={{ duration: 0.5, delay: 1.1 }}
+                                className="btn btn-sm btn-outline btn-success mt-3">
+                                RESUME <BsBoxArrowUpRight />
+                            </motion.button>
+                        </div>
                     </div>
                 </div>
                 <Lottie animationData={programmingAnimation} className='max-w-lg hidden lg:block md:block' />
