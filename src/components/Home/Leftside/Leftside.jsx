@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Leftside = () => {
     return (
-        <section id='home'>
+        <section>
             <div className='flex flex-col gap-7'>
                 <motion.a
                     initial={{ y: 10, opacity: 0 }}
