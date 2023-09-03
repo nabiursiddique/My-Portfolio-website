@@ -3,8 +3,7 @@ import NabiurSiddique from '../../assets/NabiurSiddique.jpg'
 
 const About = () => {
     return (
-
-        <section id='about' className='lg:mx-5 h-screen pt-10'>
+        <section id='about' className='lg:mx-5 pt-10'>
             <div className='hero mb-5'>
                 <div className='hero-content justify-start'>
                     <h2 className='text-4xl text-success font-semibold '>About Me</h2>

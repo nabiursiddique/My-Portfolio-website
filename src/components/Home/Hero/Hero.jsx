@@ -41,14 +41,14 @@ const Hero = () => {
                             animate={{ y: 0, opacity: 1 }}
                             transition={{ duration: 0.5, delay: 0.8 }}
                             className="py-3 text-2xl"><span className='text-slate-200'>
-                                Iam a</span> <span className='text-success font-medium'>{text}</span><span className='text-success'><Cursor /></span>
+                                I am a</span> <span className='text-success font-medium'>{text}</span><span className='text-success'><Cursor /></span>
                         </motion.h3>
 
                         <motion.p
                             initial={{ y: 10, opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}
                             transition={{ duration: 0.5, delay: 0.9 }}
-                            className='pb-3 lg:w-4/5'>I'm a Full-Stack MERN Developer, and I'm very passionate and dedicated to my work.I build websites that can impact the socity and the world
+                            className='pb-3 lg:w-4/5'>I'm a Full-Stack MERN Developer and I'm very passionate and dedicated to my work.I build websites which can impact the socity and the world
                         </motion.p>
 
                         <LinksForSmDevice />

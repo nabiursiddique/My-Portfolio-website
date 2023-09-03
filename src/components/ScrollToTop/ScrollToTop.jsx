@@ -28,7 +28,7 @@ const ScrollToTop = () => {
         <>
             {
                 isVisible && (
-                    <div className='btn btn-success fixed right-10 bottom-10' onClick={GoToTop}>
+                    <div className='btn btn-success fixed right-10 bottom-10 hover:text-white' onClick={GoToTop}>
                         <AiOutlineArrowUp />
                     </div>
                 )
