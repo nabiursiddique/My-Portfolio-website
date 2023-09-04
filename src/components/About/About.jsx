@@ -54,10 +54,18 @@ const About = () => {
                         </motion.p>
                         <div className='pt-4'>
                             <motion.p
+                                initial={{ y: 15, opacity: 0 }}
+                                whileInView={{ y: 0, opacity: 1 }}
+                                transition={{ duration: 1, delay: 0.8 }}
+                                viewport={{ once: true }}
                                 className='font-mono'>
                                 <span className='text-success'>Email: </span>nabiursiddique01@gmail.com
                             </motion.p>
                             <motion.p
+                                initial={{ y: 15, opacity: 0 }}
+                                whileInView={{ y: 0, opacity: 1 }}
+                                transition={{ duration: 1, delay: 0.9 }}
+                                viewport={{ once: true }}
                                 className='font-mono'>
                                 <span className='text-success'>Phone: </span>
                                 +8801303741747

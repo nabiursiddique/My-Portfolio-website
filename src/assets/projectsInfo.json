@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "AAA Technology",
-    "image": "/src/assets/projects-images/Home Page.png",
+    "image": "/projects-images/Home Page.png",
     "description": "A webapp for buying and selling used laptop. payment system is integrated in the website. Different Dashboard options based on user role(buyer, seller, admin). Dark / Light mode, Responsive for all devices, Seller verfication by admin, Admin can make other user admin, Admin can post / delete blogs for the blog page,Admin can delete a user. Seller can add/delete a product & Buyer can book a product and pay for it.",
     "tecnologies": [
       "React",
@@ -19,7 +19,7 @@
   {
     "id": 2,
     "name": "Social Media App",
-    "image": "/src/assets/projects-images/Social Media.jpg",
+    "image": "/projects-images/Social Media.jpg",
     "description": "A webapp where you can express your thoughts. Here a user can post their thoughts with or without image. Other users can like and comment on that post. Users can update / edit their profile informations form the about page (Only visible when user is logged in). User can see the comments on the details page. This website is fully responsive &We have included the dark and light mode for better user experience.",
     "tecnologies": [
       "React",
@@ -36,7 +36,7 @@
   {
     "id": 3,
     "name": "Speed Typer",
-    "image": "/src/assets/projects-images/Speed Typer.jpg",
+    "image": "/projects-images/Speed Typer.jpg",
     "description": "A webapp for testing the typing speed. Here you will get a random sentence and when you press start then a timer will count form 3 to 1 & the stopwatch will start. After you finish the sentence the timer will stop and give your required time, how many wrong attempt you did and your typing speed information. Your previous results will show in the history. This history is saved on the localstorage.",
     "tecnologies": ["HTML", "CSS", "Javascript", "Localstorage"],
     "clientSide": "https://github.com/nabiursiddique/Typing-Test-website-with-js-api",
