@@ -47,14 +47,22 @@ const About = () => {
                             transition={{ duration: 1, delay: 0.7 }}
                             viewport={{ once: true }}
                         >
-                            Iam Nabiur Siddique. Iam currently pursuing my Btech in computer science and Engineering at RIMT University, India. And Iam in my last semester.
+                            Iam Nabiur Siddique form Naogaon, Bangladesh. A dedicated student of Computer Science and Engineering at RIMT University in India. Currently Iam in my last semester.
                             <br />
                             <br />
-                            I have become so involved with programming that coding has become an addiction. That's why when I finish a project at the right time, then I feel full of peace, joy, and a smile too.
-                            <br />
-                            <br />
-                            Finally, Dedicated and efficient full stack developer with 8+ months of experience in application layers, presentation layers, and databases.
+                            I enjoy creating things that live on the internet. My journey in the world of technology has been a thrilling adventure, and I'm passionate about web development. Over the past year, I've immersed myself in the MERN (MongoDB, Express, React, Node.js) stack, honing my skills and crafting innovative web solutions.
                         </motion.p>
+                        <div className='pt-4'>
+                            <motion.p
+                                className='font-mono'>
+                                <span className='text-success'>Email: </span>nabiursiddique01@gmail.com
+                            </motion.p>
+                            <motion.p
+                                className='font-mono'>
+                                <span className='text-success'>Phone: </span>
+                                +8801303741747
+                            </motion.p>
+                        </div>
                     </div>
                 </div>
             </div>

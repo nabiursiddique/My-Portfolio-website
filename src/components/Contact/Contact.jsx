@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 const Contact = () => {
     return (
-        <section id='contact' className='lg:mx-5 py-10'>
-            <div className='hero mb-5'>
+        <section id='contact' className='lg:mx-5 pt-10 mb-36'>
+            <div className='hero lg:mb-10 md:mb-9 mb-5'>
                 <div className='hero-content justify-start'>
                     <motion.h2
                         initial={{ y: 10, opacity: 0 }}
@@ -23,66 +23,26 @@ const Contact = () => {
 
             <div className="flex justify-center">
                 <div className="lg:w-1/2 md:w-3/5 w-full mx-5">
-                    <div className="card w-full shadow-2xl bg-slate-800">
-                        <div className="card-body">
-                            <div className="form-control">
-                                <motion.label
-                                    initial={{ y: -10, opacity: 0 }}
-                                    whileInView={{ y: 0, opacity: 1 }}
-                                    transition={{ duration: 1, delay: 0.3 }}
-                                    viewport={{ once: true }}
-                                    className="label">
-                                    <span className="label-text">Your Name</span>
-                                </motion.label>
-                                <motion.input
-                                    initial={{ y: -10, opacity: 0 }}
-                                    whileInView={{ y: 0, opacity: 1 }}
-                                    transition={{ duration: 1, delay: 0.4 }}
-                                    viewport={{ once: true }}
-                                    type="text" placeholder="Your Name" className="input input-bordered" />
-                            </div>
-                            <div className="form-control">
-                                <motion.label
-                                    initial={{ y: -10, opacity: 0 }}
-                                    whileInView={{ y: 0, opacity: 1 }}
-                                    transition={{ duration: 1, delay: 0.5 }}
-                                    viewport={{ once: true }}
-                                    className="label">
-                                    <span className="label-text">Email</span>
-                                </motion.label>
-                                <motion.input
-                                    initial={{ y: -10, opacity: 0 }}
-                                    whileInView={{ y: 0, opacity: 1 }}
-                                    transition={{ duration: 1, delay: 0.6 }}
-                                    viewport={{ once: true }}
-                                    type="email" placeholder="Your Email" className="input input-bordered" />
-                            </div>
-                            <div className="form-control">
-                                <motion.label
-                                    initial={{ y: -10, opacity: 0 }}
-                                    whileInView={{ y: 0, opacity: 1 }}
-                                    transition={{ duration: 1, delay: 0.7 }}
-                                    viewport={{ once: true }}
-                                    className="label">
-                                    <span className="label-text">Message</span>
-                                </motion.label>
-                                <motion.textarea
-                                    initial={{ y: -10, opacity: 0 }}
-                                    whileInView={{ y: 0, opacity: 1 }}
-                                    transition={{ duration: 1, delay: 0.8 }}
-                                    viewport={{ once: true }}
-                                    placeholder="Your Message" class="textarea textarea-bordered textarea-md w-full" ></motion.textarea>
-                            </div>
-                            <div className="form-control mt-6">
-                                <motion.button
-                                    initial={{ y: -10, opacity: 0 }}
-                                    whileInView={{ y: 0, opacity: 1 }}
-                                    transition={{ duration: 1, delay: 0.9 }}
-                                    viewport={{ once: true }}
-                                    className="btn btn-success hover:bg-teal-300">Send</motion.button>
-                            </div>
-                        </div>
-                    </div>
+                    <motion.h1
+                        initial={{ y: 10, opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 1, delay: 0.3 }}
+                        viewport={{ once: true }}
+                        className='text-5xl text-center font-bold'>Get In Touch</motion.h1>
+                    <motion.p
+                        initial={{ y: 10, opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 1, delay: 0.4 }}
+                        viewport={{ once: true }}
+                        className='font-mono pt-3 text-center'>I'm currently looking for new opportunities to apply my webdevelopment knowledge in the industry and gain more knowledge & experience in webdevelopment field. Feel free to contact me.</motion.p>
+                    <motion.div
+                        initial={{ y: 10, opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 1, delay: 0.5 }}
+                        viewport={{ once: true }}
+                        className='flex justify-center mt-10'>
+                        <a href="mailto:nabiursiddique01@gmail.com" className='btn btn-outline btn-success'>Say Hello</a>
+                    </motion.div>
                 </div>
             </div>
         </section>

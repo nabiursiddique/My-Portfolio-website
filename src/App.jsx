@@ -5,6 +5,7 @@ import Projects from "./components/Projects/Projects"
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop"
 import { NavbarDefault } from "./components/Navbar/Navbar"
 import Skills from "./components/Skills/Skills"
+import Footer from "./components/Footer/Footer"
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Skills />
         <Projects />
         <Contact />
+        <Footer />
         <ScrollToTop />
       </div>
     </>

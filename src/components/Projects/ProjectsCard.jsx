@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const ProjectsCard = ({ item }) => {
     const { id, name, image, description, tecnologies, liveSite, clientSide, serverSide } = item;
     return (
-        <div className="hero mb-4">
+        <div className="hero mb-5">
             <div className={`hero-content flex-col ${id % 2 !== 0 ? 'lg:flex-row-reverse' : 'lg:flex-row'} `}>
                 <img src={image} className="lg:w-1/2 w-full rounded-lg shadow-2xl" />
                 <div>
