@@ -3,7 +3,7 @@ import Contact from "./components/Contact/Contact"
 import Home from "./components/Home/Home/Home"
 import Projects from "./components/Projects/Projects"
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop"
-import { NavbarDefault } from "./components/Shared/Navbar/Navbar"
+import { NavbarDefault } from "./components/Navbar/Navbar"
 import Skills from "./components/Skills/Skills"
 
 const App = () => {

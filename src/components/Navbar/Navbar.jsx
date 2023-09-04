@@ -5,6 +5,8 @@ import {
     IconButton,
 } from "@material-tailwind/react";
 import { motion } from "framer-motion";
+import { IoMdDownload } from "react-icons/io";
+import resume from '../../assets/resume/Nabiur Siddique Resume.pdf'
 
 export function NavbarDefault() {
     const [openNav, setOpenNav] = React.useState(false);
@@ -87,8 +89,8 @@ export function NavbarDefault() {
                 color="blue-gray"
                 className="font-normal rounded btn btn-sm btn-outline btn-success"
             >
-                <a href="#contact" className="flex items-center">
-                    Resume
+                <a href={resume} download={resume} className="flex items-center">
+                    Resume <IoMdDownload className="ml-1" />
                 </a>
             </motion.p>
         </ul>
