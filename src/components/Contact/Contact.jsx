@@ -9,14 +9,14 @@ const Contact = () => {
                     <motion.h2
                         initial={{ y: 10, opacity: 0 }}
                         whileInView={{ y: 0, opacity: 1 }}
-                        transition={{ duration: 1, delay: 0.3 }}
+                        transition={{ duration: 1, delay: 0.1 }}
                         viewport={{ once: true }}
                         className='text-4xl text-success font-semibold '>Contact Me</motion.h2>
                 </div>
                 <motion.span
                     initial={{ y: 10, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 1, delay: 0.4 }}
+                    transition={{ duration: 1, delay: 0.2 }}
                     viewport={{ once: true }}
                     className='w-60 h-[.5px] bg-slate-100 mt-11'></motion.span>
             </div>
@@ -29,7 +29,7 @@ const Contact = () => {
                                 <motion.label
                                     initial={{ y: -10, opacity: 0 }}
                                     whileInView={{ y: 0, opacity: 1 }}
-                                    transition={{ duration: 1, delay: 0.5 }}
+                                    transition={{ duration: 1, delay: 0.3 }}
                                     viewport={{ once: true }}
                                     className="label">
                                     <span className="label-text">Your Name</span>
@@ -37,7 +37,7 @@ const Contact = () => {
                                 <motion.input
                                     initial={{ y: -10, opacity: 0 }}
                                     whileInView={{ y: 0, opacity: 1 }}
-                                    transition={{ duration: 1, delay: 0.6 }}
+                                    transition={{ duration: 1, delay: 0.4 }}
                                     viewport={{ once: true }}
                                     type="text" placeholder="Your Name" className="input input-bordered" />
                             </div>

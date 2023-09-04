@@ -1,6 +1,7 @@
 import React from 'react';
 import { AiFillCaretRight } from "react-icons/ai";
 import { BsBoxArrowUpRight } from "react-icons/bs";
+import { motion } from "framer-motion";
 
 const ProjectsCard = ({ item }) => {
     const { id, name, image, description, tecnologies, liveSite, clientSide, serverSide } = item;
@@ -9,40 +10,93 @@ const ProjectsCard = ({ item }) => {
             <div className={`hero-content flex-col ${id % 2 !== 0 ? 'lg:flex-row-reverse' : 'lg:flex-row'} `}>
                 <img src={image} className="lg:w-1/2 w-full rounded-lg shadow-2xl" />
                 <div>
-                    <p className='font-mono text-teal-300 mb-2'>0{id}.Featured Project</p>
-                    <h1 className="text-4xl font-bold">{name}</h1>
-                    <p className="py-4">{description}</p>
-                    <h3 className='font-mono'>Technology Used :-</h3>
-                    <div className='w-40 h-[.5px] bg-teal-100'></div>
+                    <motion.p
+                        initial={{ x: -10, opacity: 0 }}
+                        whileInView={{ x: 0, opacity: 1 }}
+                        transition={{ duration: 1 }}
+                        viewport={{ once: true }}
+                        className='font-mono text-teal-300 mb-2'>
+                        0{id}.Featured Project
+                    </motion.p>
+                    <motion.h1
+                        initial={{ x: -10, opacity: 0 }}
+                        whileInView={{ x: 0, opacity: 1 }}
+                        transition={{ duration: 1, delay: 0.2 }}
+                        viewport={{ once: true }}
+                        className="text-4xl font-bold">
+                        {name}
+                    </motion.h1>
+                    <motion.p
+                        initial={{ x: -10, opacity: 0 }}
+                        whileInView={{ x: 0, opacity: 1 }}
+                        transition={{ duration: 1, delay: 0.3 }}
+                        viewport={{ once: true }}
+                        className="py-4">
+                        {description}
+                    </motion.p>
+                    <motion.h3
+                        initial={{ x: -10, opacity: 0 }}
+                        whileInView={{ x: 0, opacity: 1 }}
+                        transition={{ duration: 1, delay: 0.4 }}
+                        viewport={{ once: true }}
+                        className='font-mono'>
+                        Technology Used :-
+                    </motion.h3>
+                    <motion.div
+                        initial={{ x: -10, opacity: 0 }}
+                        whileInView={{ x: 0, opacity: 1 }}
+                        transition={{ duration: 1, delay: 0.5 }}
+                        viewport={{ once: true }}
+                        className='w-40 h-[.5px] bg-teal-100'>
+
+                    </motion.div>
                     {
                         tecnologies.map((technology, i) => (
-                            <div key={i} className='mt-1 flex items-center font-mono'>
+                            <motion.div
+                                initial={{ y: 10, opacity: 0 }}
+                                whileInView={{ y: 0, opacity: 1 }}
+                                transition={{ duration: 1, delay: 0.6 }}
+                                viewport={{ once: true }}
+                                key={i}
+                                className='mt-1 flex items-center font-mono'>
                                 <AiFillCaretRight className='text-teal-300' />{technology}
-                            </div>
+                            </motion.div>
                         ))
                     }
-                    <a
+                    <motion.a
+                        initial={{ y: 10, opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 1, delay: 0.7 }}
+                        viewport={{ once: true }}
                         href={clientSide}
                         target='blank'
                         className="btn btn-sm btn-outline btn-success mt-3 mr-2">
                         Client <BsBoxArrowUpRight />
-                    </a>
+                    </motion.a>
                     {
                         serverSide && (
-                            <a
+                            <motion.a
+                                initial={{ y: 10, opacity: 0 }}
+                                whileInView={{ y: 0, opacity: 1 }}
+                                transition={{ duration: 1, delay: 0.8 }}
+                                viewport={{ once: true }}
                                 href={serverSide}
                                 target='blank'
                                 className="btn btn-sm btn-outline btn-success mt-3 mx-2">
                                 Server <BsBoxArrowUpRight />
-                            </a>
+                            </motion.a>
                         )
                     }
-                    <a
+                    <motion.a
+                        initial={{ y: 10, opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        transition={{ duration: 1, delay: 0.9 }}
+                        viewport={{ once: true }}
                         href={liveSite}
                         target='blank'
                         className="btn btn-sm btn-outline btn-success mt-3 mx-2">
                         Live <BsBoxArrowUpRight />
-                    </a>
+                    </motion.a>
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from "framer-motion";
-import projectInfo from '/public/projectsInfo.json';
+import projectInfo from '../../assets/projectsInfo.json';
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -11,7 +11,7 @@ const Projects = () => {
                     <motion.h2
                         initial={{ y: 10, opacity: 0 }}
                         whileInView={{ y: 0, opacity: 1 }}
-                        transition={{ duration: 1, delay: 0.5 }}
+                        transition={{ duration: 1 }}
                         viewport={{ once: true }}
                         className='text-4xl text-success font-semibold '>Projects</motion.h2>
                 </div>
