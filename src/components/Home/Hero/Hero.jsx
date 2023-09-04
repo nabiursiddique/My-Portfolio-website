@@ -54,19 +54,22 @@ const Hero = () => {
                         <LinksForSmDevice />
 
                         <div className='lg:mt-0 mt-2'>
-                            <motion.button
+                            <motion.a
+                                href='#contact'
                                 initial={{ y: 10, opacity: 0 }}
                                 animate={{ y: 0, opacity: 1 }}
                                 transition={{ duration: 0.5, delay: 1 }}
                                 className="btn btn-sm btn-outline btn-success mt-3 mr-5">Say Hello <BsFillSendFill />
-                            </motion.button>
-                            <motion.button
+                            </motion.a>
+                            <motion.a
+                                href='https://drive.google.com/file/d/1Q7WLo5k6V7jV7iOTF3RsKZoyw7XP2EWz/view'
+                                target='blank'
                                 initial={{ y: 10, opacity: 0 }}
                                 animate={{ y: 0, opacity: 1 }}
                                 transition={{ duration: 0.5, delay: 1.1 }}
                                 className="btn btn-sm btn-outline btn-success mt-3">
                                 RESUME <BsBoxArrowUpRight />
-                            </motion.button>
+                            </motion.a>
                         </div>
                     </div>
                 </div>

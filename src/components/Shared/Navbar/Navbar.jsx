@@ -62,9 +62,9 @@ export function NavbarDefault() {
                 variant="small"
                 color="blue-gray"
                 className="font-normal rounded btn btn-sm btn-ghost hover:btn-success"
-                href="#portfolio"
+                href="#projects"
             >
-                Portfolio
+                Projects
             </motion.a>
             <motion.a
                 initial={{ y: -8, opacity: 0 }}

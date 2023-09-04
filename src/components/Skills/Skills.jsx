@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Skills = () => {
     const frontend = ['ReactJS', 'NextJS', 'Javascript', 'Tailwind CSS', 'Bootstrap'];
-    const backend = ['ExpressJS', 'MongoDB', 'NodeJS', 'JWT', 'Rest API']
+    const backend = ['ExpressJS', 'NodeJS', 'MongoDB', 'JWT', 'Rest API']
     const tools = ['Firebase', 'Git & Github', 'VS Code', 'Figma', 'Adobe Photoshop']
     return (
         <section id='skills' className='lg:mx-5 py-10'>
@@ -37,7 +37,7 @@ const Skills = () => {
                             <h2 className="card-title text-success">Frontend</h2>
                             <span className='w-48 h-[.5px] bg-success'></span>
                             {
-                                frontend.map(item => <p className='font-mono py-3'>{item}</p>)
+                                frontend.map((item, i) => <p key={i} className='font-mono py-3'>{item}</p>)
                             }
 
                         </div>
@@ -53,7 +53,7 @@ const Skills = () => {
                             <h2 className="card-title text-success">Backend</h2>
                             <span className='w-48 h-[.5px] bg-success'></span>
                             {
-                                backend.map(item => <p className='font-mono py-3'>{item}</p>)
+                                backend.map((item, i) => <p key={i} className='font-mono py-3'>{item}</p>)
                             }
                         </div>
                     </motion.div>
@@ -68,7 +68,7 @@ const Skills = () => {
                             <h2 className="card-title text-success">Tools</h2>
                             <span className='w-48 h-[.5px] bg-success'></span>
                             {
-                                tools.map(item => <p className='font-mono py-3'>{item}</p>)
+                                tools.map((item, i) => <p key={i} className='font-mono py-3'>{item}</p>)
                             }
                         </div>
                     </motion.div>
