@@ -6,11 +6,13 @@ import ScrollToTop from "./components/ScrollToTop/ScrollToTop"
 import { NavbarDefault } from "./components/Navbar/Navbar"
 import Skills from "./components/Skills/Skills"
 import Footer from "./components/Footer/Footer"
+import Glow from "./components/Glow/Glow"
 
 const App = () => {
   return (
     <>
       <div className="font-body max-w-[1440px] mx-auto">
+        <Glow />
         <NavbarDefault />
         <Home />
         <About />
