@@ -2,9 +2,9 @@ import React from 'react';
 import { motion } from "framer-motion";
 
 const Skills = () => {
-    const frontend = ['ReactJS', 'NextJS', 'Javascript', 'Tailwind CSS', 'Bootstrap'];
-    const backend = ['ExpressJS', 'NodeJS', 'MongoDB', 'JWT', 'Rest API']
-    const tools = ['Firebase', 'Git & Github', 'VS Code', 'Figma', 'Adobe Photoshop']
+    const frontend = ['ReactJS', 'NextJS', 'Redux', 'Typescript', 'Tailwind CSS', 'Ant Design'];
+    const backend = ['ExpressJS', 'NodeJS', 'MongoDB', 'Mongoose', 'Json Web Token', 'Rest API']
+    const tools = ['Firebase', 'Git & Github', 'VS Code', 'Figma', 'Adobe Photoshop', 'Microsoft Office']
     return (
         <section id='skills' className='lg:mx-5 py-10'>
             <div className='hero mb-5'>
@@ -37,7 +37,7 @@ const Skills = () => {
                             <h2 className="card-title text-success">Frontend</h2>
                             <span className='w-48 h-[.5px] bg-success'></span>
                             {
-                                frontend.map((item, i) => <p key={i} className='font-mono py-3'>{item}</p>)
+                                frontend.map((item, i) => <p key={i} className='font-mono py-3 text-white'>{item}</p>)
                             }
 
                         </div>
@@ -53,7 +53,7 @@ const Skills = () => {
                             <h2 className="card-title text-success">Backend</h2>
                             <span className='w-48 h-[.5px] bg-success'></span>
                             {
-                                backend.map((item, i) => <p key={i} className='font-mono py-3'>{item}</p>)
+                                backend.map((item, i) => <p key={i} className='font-mono py-3 text-white'>{item}</p>)
                             }
                         </div>
                     </motion.div>
@@ -68,7 +68,7 @@ const Skills = () => {
                             <h2 className="card-title text-success">Tools</h2>
                             <span className='w-48 h-[.5px] bg-success'></span>
                             {
-                                tools.map((item, i) => <p key={i} className='font-mono py-3'>{item}</p>)
+                                tools.map((item, i) => <p key={i} className='font-mono py-3 text-white'>{item}</p>)
                             }
                         </div>
                     </motion.div>

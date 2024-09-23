@@ -23,7 +23,7 @@ const ProjectsCard = ({ item }) => {
                         whileInView={{ x: 0, opacity: 1 }}
                         transition={{ duration: 1, delay: 0.2 }}
                         viewport={{ once: true }}
-                        className="text-4xl font-bold">
+                        className="text-4xl text-white font-bold">
                         {name}
                     </motion.h1>
                     <motion.p
@@ -31,7 +31,7 @@ const ProjectsCard = ({ item }) => {
                         whileInView={{ x: 0, opacity: 1 }}
                         transition={{ duration: 1, delay: 0.3 }}
                         viewport={{ once: true }}
-                        className="py-4">
+                        className="py-4 text-justify">
                         {description}
                     </motion.p>
                     <motion.h3
