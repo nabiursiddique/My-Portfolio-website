@@ -14,7 +14,7 @@ const Leftside = () => {
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.5, delay: 0.6 }}
                     href="https://github.com/nabiursiddique" target='blank'>
-                    <FaGithub className='text-3xl text-success hover:text-white' />
+                    <FaGithub className='text-3xl hover:text-success rounded-lg' />
                 </motion.a>
 
                 <motion.a
@@ -22,7 +22,7 @@ const Leftside = () => {
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.5, delay: 0.7 }}
                     href="https://www.linkedin.com/in/nabiur-siddique" target='blank'>
-                    <FaLinkedin className='text-3xl text-success hover:text-white ' />
+                    <FaLinkedin className='text-3xl  hover:text-success rounded-lg' />
                 </motion.a>
 
                 <motion.a
@@ -30,7 +30,7 @@ const Leftside = () => {
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.5, delay: 0.8 }}
                     href="mailto:nabiursiddique01@gmail.com">
-                    <AiFillMail className='text-3xl text-success hover:text-white' />
+                    <AiFillMail className='text-3xl  hover:text-success rounded-lg' />
                 </motion.a>
 
                 <motion.a
@@ -38,7 +38,7 @@ const Leftside = () => {
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.5, delay: 0.9 }}
                     href="https://www.instagram.com/nabiur_siddique" target='blank'>
-                    <FaInstagramSquare className='text-3xl text-success hover:text-white' />
+                    <FaInstagramSquare className='text-3xl  hover:text-success rounded-lg' />
                 </motion.a>
             </div>
         </section>

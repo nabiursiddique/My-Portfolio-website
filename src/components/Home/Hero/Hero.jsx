@@ -48,7 +48,7 @@ const Hero = () => {
                             initial={{ y: 10, opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}
                             transition={{ duration: 0.5, delay: 0.9 }}
-                            className='pb-3 lg:w-4/5'>I'm a Full-Stack MERN Developer and I'm very passionate and dedicated to my work.I build websites which can impact the socity and the world
+                            className='pb-3 lg:w-4/5'>I'm a Full-Stack MERN Developer and I'm very passionate and dedicated to my work.I build websites which can impact the society and the world.
                         </motion.p>
 
                         <LinksForSmDevice />
