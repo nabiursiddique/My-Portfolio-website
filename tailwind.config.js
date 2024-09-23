@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        body: "Inter",
+        // body: "Inter",
+        body: "Oswald",
       },
     },
   },
