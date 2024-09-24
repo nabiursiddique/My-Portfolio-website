@@ -9,7 +9,7 @@ import LinksForSmDevice from '../linksForSmDevice/linksForSmDevice';
 
 const Hero = () => {
     const [text] = useTypewriter({
-        words: ['MERN Stack Developer.', 'ReactJS Developer.', 'Web Developer.', 'Frontend Designer.'],
+        words: ['MERN Stack Developer.', 'Next Js Developer.', 'Node Js Developer.', 'ReactJS Developer.', 'Backend Developer.', 'Frontend Developer.'],
         loop: {}
     });
 

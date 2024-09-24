@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className='pb-5'>
-            <p className='text-center font-mono'>Copyright © 2023 || All rights reserved by Nabiur Siddique.</p>
+            <p className='text-center font-mono'>All Rights Reserved By Nabiur Siddique<span className='text-green-400 font-extrabold'>.</span></p>
         </div>
     );
 };

@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { motion } from "framer-motion";
 import projectInfo from '../../assets/projectsInfo.json';
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
+    const [projectCount, setProjectCount] = useState(3);
     return (
         <section id='projects' className='lg:mx-5 py-10'>
             <div className='hero mb-5'>
@@ -25,13 +26,22 @@ const Projects = () => {
 
             <div>
                 {
-                    projectInfo.map((item, i) => (
+                    projectInfo.slice(0, projectCount).map((item, i) => (
                         <ProjectsCard key={i} item={item} />
                     ))
                 }
-
-
             </div>
+
+
+            <div className={`flex justify-center mt-10 ${projectInfo.length < 4 && 'hidden'}`}>
+                {
+                    projectCount === projectInfo.length ?
+                        <button onClick={() => setProjectCount(3)} className='btn btn-success btn-outline'>See Less</button>
+                        :
+                        <button onClick={() => setProjectCount(projectInfo.length)} className='btn btn-success btn-outline'>See More Projects</button>
+                }
+            </div>
+
         </section>
     );
 };
