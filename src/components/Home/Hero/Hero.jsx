@@ -62,7 +62,7 @@ const Hero = () => {
                                 className="btn btn-sm btn-outline btn-success mt-3 mr-5">Say Hello <BsFillSendFill />
                             </motion.a>
                             <motion.a
-                                href='https://drive.google.com/file/d/1Ru5ZWtyuTza6wd-Fr1tySEHKhbXL0z_9/view'
+                                href='https://drive.google.com/file/d/1Wc_jEgI-fvcrzLDdjNjCEfFbTlZvfPjO/view?usp=sharing'
                                 target='blank'
                                 initial={{ y: 10, opacity: 0 }}
                                 animate={{ y: 0, opacity: 1 }}
