@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { BsFillSendFill, BsBoxArrowUpRight } from "react-icons/bs";
 import Leftside from '../Leftside/Leftside';
