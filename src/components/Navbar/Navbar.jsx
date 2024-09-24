@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
     Navbar,
     MobileNav,
@@ -11,7 +11,7 @@ import resume from '../../assets/resume/Nabiur Siddique Resume.pdf'
 export function NavbarDefault() {
     const [openNav, setOpenNav] = React.useState(false);
 
-    React.useEffect(() => {
+    useEffect(() => {
         window.addEventListener(
             "resize",
             () => window.innerWidth >= 960 && setOpenNav(false),

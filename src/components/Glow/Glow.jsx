@@ -8,7 +8,7 @@ function Glow() {
             const x = e.clientX;
             const y = e.clientY;
             if (ref.current) {
-                ref.current.style.background = `radial-gradient(500px at ${x}px ${y}px, rgba(3, 105, 161, 0.15), transparent 80%)`;
+                ref.current.style.background = `radial-gradient(500px at ${x}px ${y}px, rgba(3, 105, 161, 0.20), transparent 80%)`;
             }
         };
 

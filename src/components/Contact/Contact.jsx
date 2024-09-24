@@ -28,7 +28,7 @@ const Contact = () => {
                         whileInView={{ y: 0, opacity: 1 }}
                         transition={{ duration: 1, delay: 0.3 }}
                         viewport={{ once: true }}
-                        className='text-5xl text-center font-bold'>Get In Touch</motion.h1>
+                        className='text-5xl text-center font-bold text-white'>Get In Touch</motion.h1>
                     <motion.p
                         initial={{ y: 10, opacity: 0 }}
                         whileInView={{ y: 0, opacity: 1 }}

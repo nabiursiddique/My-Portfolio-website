@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { BsFillSendFill, BsBoxArrowUpRight } from "react-icons/bs";
 import Leftside from '../Leftside/Leftside';
@@ -9,7 +9,7 @@ import LinksForSmDevice from '../linksForSmDevice/linksForSmDevice';
 
 const Hero = () => {
     const [text] = useTypewriter({
-        words: ['MERN Stack Developer.', 'ReactJS Developer.', 'Web Developer.', 'Frontend Designer.'],
+        words: ['MERN Stack Developer.', 'Next Js Developer.', 'Node Js Developer.', 'ReactJS Developer.', 'Backend Developer.', 'Frontend Developer.'],
         loop: {}
     });
 
@@ -48,7 +48,7 @@ const Hero = () => {
                             initial={{ y: 10, opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}
                             transition={{ duration: 0.5, delay: 0.9 }}
-                            className='pb-3 lg:w-4/5'>I'm a Full-Stack MERN Developer and I'm very passionate and dedicated to my work.I build websites which can impact the socity and the world
+                            className='pb-3 lg:w-4/5'>I'm a Full-Stack MERN Developer and I'm very passionate and dedicated to my work.I build websites which can impact the society and the world.
                         </motion.p>
 
                         <LinksForSmDevice />
@@ -62,7 +62,7 @@ const Hero = () => {
                                 className="btn btn-sm btn-outline btn-success mt-3 mr-5">Say Hello <BsFillSendFill />
                             </motion.a>
                             <motion.a
-                                href='https://drive.google.com/file/d/1Ru5ZWtyuTza6wd-Fr1tySEHKhbXL0z_9/view'
+                                href='https://drive.google.com/file/d/1Wc_jEgI-fvcrzLDdjNjCEfFbTlZvfPjO/view?usp=sharing'
                                 target='blank'
                                 initial={{ y: 10, opacity: 0 }}
                                 animate={{ y: 0, opacity: 1 }}

@@ -47,10 +47,13 @@ const About = () => {
                             transition={{ duration: 1, delay: 0.7 }}
                             viewport={{ once: true }}
                         >
-                            Iam Nabiur Siddique form Naogaon, Bangladesh. A dedicated student of Computer Science and Engineering at RIMT University in India. Currently Iam in my last semester.
+                            I’m Nabiur Siddique, a passionate web developer from Naogaon, Bangladesh. I graduated in 2024 with a BTech in Computer Science and Engineering from RIMT University, India, achieving a CGPA of 8.04.
                             <br />
                             <br />
-                            I enjoy creating things that live on the internet. My journey in the world of technology has been a thrilling adventure, and I'm passionate about web development. Over the past year, I've immersed myself in the MERN (MongoDB, Express, React, Node.js) stack, honing my skills and crafting innovative web solutions.
+                            I thrive on building things that are live and interactive on the web. My journey through the world of technology has been an exciting exploration, driven by a deep passion for web development. Over the past year, I’ve fully embraced the MERN stack (MongoDB, Express, React, Node.js), where I’ve been refining my expertise and developing innovative solutions that are both functional and impactful.
+                            <br />
+                            <br />
+                            Every project I work on is a step forward in my mission to deliver web experiences that not only serve a purpose but also push the boundaries of what’s possible on the internet.
                         </motion.p>
                         <div className='pt-4'>
                             <motion.p
@@ -58,7 +61,7 @@ const About = () => {
                                 whileInView={{ y: 0, opacity: 1 }}
                                 transition={{ duration: 1, delay: 0.8 }}
                                 viewport={{ once: true }}
-                                className='font-mono'>
+                                className='font-mono text-white'>
                                 <span className='text-success'>Email: </span>nabiursiddique01@gmail.com
                             </motion.p>
                             <motion.p
@@ -66,7 +69,7 @@ const About = () => {
                                 whileInView={{ y: 0, opacity: 1 }}
                                 transition={{ duration: 1, delay: 0.9 }}
                                 viewport={{ once: true }}
-                                className='font-mono'>
+                                className='font-mono text-white'>
                                 <span className='text-success'>Phone: </span>
                                 +8801303741747
                             </motion.p>

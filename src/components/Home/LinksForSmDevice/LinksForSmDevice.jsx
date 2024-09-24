@@ -19,7 +19,7 @@ const LinksForSmDevice = () => {
                     initial={{ y: 10, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.5, delay: 0.7 }}
-                    className='bg-success p-2 rounded-full' href="https://www.linkedin.com/in/nabiur-siddique" target='blank'>
+                    className='bg-success p-2 rounded-full' href="https://www.linkedin.com/in/nabiursiddique/" target='blank'>
                     <BiLogoLinkedin className='text-2xl text-black hover:text-white ' />
                 </motion.a>
 
@@ -35,7 +35,7 @@ const LinksForSmDevice = () => {
                     initial={{ y: 10, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.5, delay: 0.9 }}
-                    className='bg-success p-2 rounded-full' href="https://www.instagram.com/nabiur_siddique" target='blank'>
+                    className='bg-success p-2 rounded-full' href="https://www.instagram.com/nabiursiddique/" target='blank'>
                     <BiLogoInstagram className='text-2xl text-black hover:text-white ' />
                 </motion.a>
             </div>
