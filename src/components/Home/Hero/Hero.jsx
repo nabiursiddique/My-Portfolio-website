@@ -55,7 +55,7 @@ const Hero = () => {
 
                         <div className='lg:mt-0 mt-2'>
                             <motion.a
-                                href='#contact'
+                                href="mailto:nabiursiddique01@gmail.com"
                                 initial={{ y: 10, opacity: 0 }}
                                 animate={{ y: 0, opacity: 1 }}
                                 transition={{ duration: 0.5, delay: 1 }}
