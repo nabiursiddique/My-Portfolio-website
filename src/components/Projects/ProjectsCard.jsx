@@ -4,7 +4,7 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 import { motion } from "framer-motion";
 
 const ProjectsCard = ({ item }) => {
-    const { id, name, image, description, tecnologies, liveSite, clientSide, serverSide } = item;
+    const { id, name, image, description, technologies, liveSite, clientSide, serverSide } = item;
     return (
         <div className="hero mb-5">
             <div className={`hero-content flex-col ${id % 2 !== 0 ? 'lg:flex-row-reverse' : 'lg:flex-row'} `}>
@@ -51,7 +51,7 @@ const ProjectsCard = ({ item }) => {
 
                     </motion.div>
                     {
-                        tecnologies.map((technology, i) => (
+                        technologies.map((technology, i) => (
                             <motion.div
                                 initial={{ y: 10, opacity: 0 }}
                                 whileInView={{ y: 0, opacity: 1 }}
@@ -71,7 +71,7 @@ const ProjectsCard = ({ item }) => {
                         href={clientSide}
                         target='blank'
                         className="btn btn-sm btn-outline btn-success mt-3 mr-2">
-                        Client <BsBoxArrowUpRight />
+                        Client Repo<BsBoxArrowUpRight />
                     </motion.a>
                     {
                         serverSide && (
@@ -83,7 +83,7 @@ const ProjectsCard = ({ item }) => {
                                 href={serverSide}
                                 target='blank'
                                 className="btn btn-sm btn-outline btn-success mt-3 mx-2">
-                                Server <BsBoxArrowUpRight />
+                                Server Repo<BsBoxArrowUpRight />
                             </motion.a>
                         )
                     }

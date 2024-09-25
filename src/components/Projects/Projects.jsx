@@ -26,7 +26,7 @@ const Projects = () => {
 
             <div>
                 {
-                    projectInfo.slice(0, projectCount).map((item, i) => (
+                    projectInfo?.slice(0, projectCount).map((item, i) => (
                         <ProjectsCard key={i} item={item} />
                     ))
                 }
