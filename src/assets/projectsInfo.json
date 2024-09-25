@@ -1,10 +1,27 @@
 [
   {
     "id": 1,
+    "name": "Bike Rental Service",
+    "image": "/projects-images/Bike Rental.png",
+    "description": "A webapp for Renting Bikes. Here a user can rent their needed bike. Based on the role this website will function differently. A user can rent a bike, Pay their rent seamlessly with integrated payment system, edit their profile info and see their rentals. And admin can manage bikes and their infos, manage users, make bike return request and more...",
+    "technologies": [
+      "ReactJs",
+      "Redux",
+      "ExpressJS",
+      "Mongoose",
+      "Custom Authentication & Authorization",
+      "Shadcn UI & more..."
+    ],
+    "clientSide": "https://github.com/nabiursiddique/bike-rental-service-frontend",
+    "serverSide": "https://github.com/nabiursiddique/bike-rental-service-backend",
+    "liveSite": "https://bike-rental-reservation-system-frontend.vercel.app"
+  },
+  {
+    "id": 2,
     "name": "AAA Technology",
     "image": "/projects-images/Home Page.png",
-    "description": "A webapp for buying and selling used laptop. payment system is integrated in the website. Different Dashboard options based on user role(buyer, seller, admin). Dark / Light mode, Responsive for all devices, Seller verfication by admin, Admin can make other user admin, Admin can post / delete blogs for the blog page,Admin can delete a user. Seller can add/delete a product & Buyer can book a product and pay for it.",
-    "tecnologies": [
+    "description": "A webapp for buying and selling used laptop. payment system is integrated in the website. Different Dashboard options based on user role(buyer, seller, admin). Dark / Light mode, Responsive for all devices, Seller verification by admin, Admin can make other user admin, Admin can post / delete blogs for the blog page,Admin can delete a user. Seller can add/delete a product & Buyer can book a product and pay for it.",
+    "technologies": [
       "React",
       "TailwindCSS",
       "Firebase",
@@ -17,11 +34,11 @@
     "liveSite": "https://used-laptop-shop-e0c52.web.app/"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Social Media App",
     "image": "/projects-images/Social Media.jpg",
-    "description": "A webapp where you can express your thoughts. Here a user can post their thoughts with or without image. Other users can like and comment on that post. Users can update / edit their profile informations form the about page (Only visible when user is logged in). User can see the comments on the details page. This website is fully responsive &We have included the dark and light mode for better user experience.",
-    "tecnologies": [
+    "description": "A webapp where you can express your thoughts. Here a user can post their thoughts with or without image. Other users can like and comment on that post. Users can update / edit their profile information's form the about page (Only visible when user is logged in). User can see the comments on the details page. This website is fully responsive &We have included the dark and light mode for better user experience.",
+    "technologies": [
       "React",
       "TailwindCSS",
       "Firebase",
@@ -34,11 +51,11 @@
     "liveSite": "https://social-media-app-6f1a8.web.app/"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Speed Typer",
     "image": "/projects-images/Speed Typer.jpg",
     "description": "A webapp for testing the typing speed. Here you will get a random sentence and when you press start then a timer will count form 3 to 1 & the stopwatch will start. After you finish the sentence the timer will stop and give your required time, how many wrong attempt you did and your typing speed information. Your previous results will show in the history. This history is saved on the localstorage.",
-    "tecnologies": ["HTML", "CSS", "Javascript", "Localstorage"],
+    "technologies": ["HTML", "CSS", "Javascript", "Localstorage"],
     "clientSide": "https://github.com/nabiursiddique/Typing-Test-website-with-js-api",
     "liveSite": "https://nabiursiddique.github.io/Typing-Test-website-with-js-api/"
   }
