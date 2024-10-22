@@ -52,6 +52,18 @@ export function NavbarDefault() {
                 variant="small"
                 color="blue-gray"
                 className="font-normal rounded btn btn-sm btn-ghost hover:btn-success"
+                href="#qualification"
+            >
+                Qualification
+            </motion.a>
+            <motion.a
+                initial={{ y: -8, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.2, delay: 0.3 }}
+                as="li"
+                variant="small"
+                color="blue-gray"
+                className="font-normal rounded btn btn-sm btn-ghost hover:btn-success"
                 href="#skills"
             >
                 skills
@@ -59,7 +71,7 @@ export function NavbarDefault() {
             <motion.a
                 initial={{ y: -8, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.2, delay: 0.3 }}
+                transition={{ duration: 0.2, delay: 0.4 }}
                 as="li"
                 variant="small"
                 color="blue-gray"
@@ -71,7 +83,7 @@ export function NavbarDefault() {
             <motion.a
                 initial={{ y: -8, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.2, delay: 0.4 }}
+                transition={{ duration: 0.2, delay: 0.5 }}
                 as="li"
                 variant="small"
                 color="blue-gray"
@@ -97,7 +109,7 @@ export function NavbarDefault() {
     );
 
     return (
-        <Navbar className="mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4 shadow-lg">
+        <Navbar className="mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4 shadow-lg border-none">
             <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
                 <motion.p
                     initial={{ y: -8, opacity: 0 }}
