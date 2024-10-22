@@ -19,7 +19,7 @@
   {
     "id": 2,
     "name": "AAA Technology",
-    "image": "/projects-images/Home Page.png",
+    "image": "/projects-images/AAA Technology.png",
     "description": "A webapp for buying and selling used laptop. payment system is integrated in the website. Different Dashboard options based on user role(buyer, seller, admin). Dark / Light mode, Responsive for all devices, Seller verification by admin, Admin can make other user admin, Admin can post / delete blogs for the blog page,Admin can delete a user. Seller can add/delete a product & Buyer can book a product and pay for it.",
     "technologies": [
       "React",
