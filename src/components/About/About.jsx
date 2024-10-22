@@ -47,7 +47,7 @@ const About = () => {
                             transition={{ duration: 1, delay: 0.7 }}
                             viewport={{ once: true }}
                         >
-                            I’m Nabiur Siddique, a passionate web developer from Naogaon, Bangladesh. I graduated in 2024 with a BTech degree in Computer Science and Engineering from RIMT University, India, achieving a CGPA of 8.04 out of 10.
+                            I’m Nabiur Siddique, a passionate web developer from Naogaon, Bangladesh. I graduated in 2024 with a BTech degree in Computer Science and Engineering.
                             <br />
                             <br />
                             I thrive on building things that are live and interactive on the web. My journey through the world of technology has been an exciting exploration, driven by a deep passion for web development. Over the past year, I’ve fully embraced the MERN stack (MongoDB, Express, React, Node.js), where I’ve been refining my expertise and developing innovative solutions that are both functional and impactful.

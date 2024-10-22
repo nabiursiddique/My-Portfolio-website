@@ -9,6 +9,7 @@ import Footer from "./components/Footer/Footer"
 import Glow from "./components/Glow/Glow"
 import { useEffect, useState } from "react"
 import { Helmet } from "react-helmet"
+import Qualification from "./components/Qualification/Qualification"
 
 const App = () => {
 
@@ -20,6 +21,7 @@ const App = () => {
       const sections = [
         { id: '#', name: 'home' },
         { id: 'about', name: 'about' },
+        { id: 'qualification', name: 'qualification' },
         { id: 'skills', name: 'skills' },
         { id: 'projects', name: 'projects' },
         { id: 'contact', name: 'contact' }
@@ -47,6 +49,8 @@ const App = () => {
     switch (currentSection) {
       case 'about':
         return 'Nabiur Siddique | About';
+      case 'qualification':
+        return 'Nabiur Siddique | Qualification';
       case 'skills':
         return 'Nabiur Siddique | Skills';
       case 'projects':
@@ -62,6 +66,8 @@ const App = () => {
     switch (currentSection) {
       case 'about':
         return 'Learn more about Nabiur Siddique, a passionate web developer.';
+      case 'qualification':
+        return 'Qualification of Nabiur Siddique';
       case 'skills':
         return 'skills and expertise of Nabiur Siddique.';
       case 'projects':
@@ -86,6 +92,7 @@ const App = () => {
         <NavbarDefault />
         <Home />
         <About />
+        <Qualification />
         <Skills />
         <Projects />
         <Contact />
